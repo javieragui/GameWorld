@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgrnd"
+    android:layout_alignParentTop="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/worldquestion" />
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="108dp"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="65dp"
+            android:text="MAIN MENU"
+            android:textSize="@dimen/screen_title_size"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@drawable/worldquestion"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="100dp"
+        >
+
+    </ListView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/worldmiddle" />
+
+</RelativeLayout>
